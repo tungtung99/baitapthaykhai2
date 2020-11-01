@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    margin-top: 50px;
+    width: 1920px;
+}
+.div1{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    border-left: 2px solid white;
+    background-color: rgb(231, 227, 227);
+}
+.header{
+    width: 1920px;
+    height: 40px;
+    background-color:  rgb(5, 131, 89);
+    display: flex;
+}
+.content{
+    width: 1000px;
+    display: flex;
+}
+.header1{
+    margin-left: 67px;
+    width: 1853px;
+    height: 60px;
+    background-color:  rgb(3, 45, 53);
+    
+}
+.help{
+    color: white;
+    margin-left: 50px;
+    padding-top: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+ul.menungang{
+    list-style: none;
+    display: flex;
+    width: 1853px;
+}
+ul.menungang h5{
+    color: white;
+    font-size: 10px;
+    font-family: segoe ui light;
+    text-decoration: none;
+    
+}
