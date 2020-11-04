@@ -1,28 +1,30 @@
-.container{
-    display: flex;
-    margin-top: 50px;
-    width: 1920px;
+body{
+    width: 100%;
 }
-.div1{
-    width: 500px;
+.container{
+    margin-top: 50px;
+    width: 100%;
+}
+.col-sm-2{
     height: 400px;
     padding: 10px;
     border-left: 2px solid white;
     background-color: rgb(231, 227, 227);
+    margin-right: 10px;
 }
 .header{
-    width: 1920px;
+    width: 1920;
     height: 40px;
     background-color:  rgb(5, 131, 89);
     display: flex;
 }
 .content{
-    width: 1000px;
+    width: 100%;
     display: flex;
 }
 .header1{
-    margin-left: 67px;
-    width: 1853px;
+    margin-left: 60px;
+    width: 97%;
     height: 60px;
     background-color:  rgb(3, 45, 53);
     
@@ -40,7 +42,7 @@
 ul.menungang{
     list-style: none;
     display: flex;
-    width: 1853px;
+    width: 100%;
 }
 ul.menungang h5{
     color: white;

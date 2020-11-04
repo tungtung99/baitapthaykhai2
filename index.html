@@ -32,7 +32,7 @@
     </script>
     <div class="header">
         <p class="help">Help</p>
-        <i class="fas fa-th" style=" font-size: 25px; color: white; margin-left: 1100px; padding-top: 8px;"></i>
+        <i class="fas fa-th" style=" font-size: 25px; color: white; margin-left: 1000px; padding-top: 8px;"></i>
         <i class="fas fa-globe-americas"
             style=" font-size: 25px; color: white; margin-left: 100px; padding-top: 8px;"></i>
         <i class="fas fa-folder-open" style=" font-size: 25px; color: white; margin-left: 100px; padding-top: 8px;"></i>
@@ -40,6 +40,7 @@
         <p style=" font-size: 20px; color: white; margin-left: 80px; padding-top: 8px;">Nguyễn Văn Khải</p>
         <img src="49899087_279230109413490_377876763209891840_n.jpg" alt=""
             style=" width: 40px; height: 40px; margin-left: 40px;">
+        
     </div>
     <div class="content">
         <h2 style="color: rgb(5, 131, 89); margin-left: 65px; margin-right: 5px;">SPRINT 4(QUẢN LÝ SỰ CỐ) <h2
@@ -94,61 +95,68 @@
         </ul>
     </div>
     <div class="container">
-        <div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"
-            style="border-top: 4px solid gray; margin-left: 50px;">
-            <div style="color: gray; font-size: 20px; height: 30px;">USER SOTRY</div>
-        </div>
-        <div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="border-top: 4px solid gray;">
-            <div style="color: gray; font-size: 20px; height: 30px;">NEW</div>
-            <div style="background-color: white; height: auto; border-radius: 5px; margin-bottom: 10px;" id="drag1"
-                draggable="true" ondragstart="drag(event)">
-                <table>
-                    <tr>
-                        <td>
-                            <img src="49899087_279230109413490_377876763209891840_n.jpg" width="50px" height="50px"
-                                style="margin-top: 10px ; size: 100%;">
-                        </td>
-                        <td>
-                            <div style="font-size: 18px; color: gray;">Trần Quốc Vượng</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <div style="margin-top: 10px; font-size: 15px; margin-bottom: 15px;">#133 Tạo bảng lưu thông
-                                tin chức danh của nhân sự (1 nhân sự có thể có nhiều chức danh)</div>
-                        </td>
-                    </tr>
-                </table>
+        <div class="row" style="width: 100%;">
+            <div class="col-sm-2" ondrop="drop(event)" ondragover="allowDrop(event)"
+                style="border-top: 4px solid gray; margin-left: 60px;">
+                <div style="color: gray; font-size: 20px; height: 30px;">USER SOTRY</div>
             </div>
-        </div>
-        <div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="border-top: 4px solid orange;">
-            <div style="color: gray; font-size: 20px; height: 30px;">IN PROGRESS</div>
-            <div style="background-color: white; height: auto; border-radius: 5px; margin-bottom: 10px;" id="drag2"
-                draggable="true" ondragstart="drag(event)">
-                <table>
-                    <tr>
-                        <td>
-                            <img src="1.jpg" width="50px" height="50px" style="margin-top: 10px ; size: 100%;">
-                        </td>
-                        <td>
-                            <div style="font-size: 18px; color: gray;">Trần Quốc Vượng</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <div style="margin-top: 10px; font-size: 15px; margin-bottom: 15px;">#133 Tạo bảng lưu thông
-                                tin chức danh của nhân sự (1 nhân sự có thể có nhiều chức danh)</div>
-                        </td>
-                    </tr>
-                </table>
+            <div class="col-sm-2" ondrop="drop(event)" ondragover="allowDrop(event)"
+                style="border-top: 4px solid gray;">
+                <div style="color: gray; font-size: 20px; height: 30px;">NEW</div>
+                <div style="background-color: white; height: auto; border-radius: 5px; margin-bottom: 10px;" id="drag1"
+                    draggable="true" ondragstart="drag(event)">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="49899087_279230109413490_377876763209891840_n.jpg" width="50px" height="50px"
+                                    style="margin-top: 10px ; size: 100%;">
+                            </td>
+                            <td>
+                                <div style="font-size: 18px; color: gray;">Trần Quốc Vượng</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div style="margin-top: 10px; font-size: 15px; margin-bottom: 15px;">#133 Tạo bảng
+                                    lưu thông
+                                    tin chức danh của nhân sự (1 nhân sự có thể có nhiều chức danh)</div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="border-top: 4px solid gold;">
-            <div style="color: gray; font-size: 20px; height: 30px;">READY FOR TEST</div>
-        </div>
-        <div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"
-            style="border-top: 4px solid rgb(9, 206, 9);">
-            <div style="color: gray; font-size: 20px; height: 30px;">CLOSE</div>
+            <div class="col-sm-2" ondrop="drop(event)" ondragover="allowDrop(event)"
+                style="border-top: 4px solid orange;">
+                <div style="color: gray; font-size: 20px; height: 30px;">IN PROGRESS</div>
+                <div style="background-color: white; height: auto; border-radius: 5px; margin-bottom: 10px;" id="drag2"
+                    draggable="true" ondragstart="drag(event)">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="1.jpg" width="50px" height="50px" style="margin-top: 10px ; size: 100%;">
+                            </td>
+                            <td>
+                                <div style="font-size: 18px; color: gray;">Trần Quốc Vượng</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div style="margin-top: 10px; font-size: 15px; margin-bottom: 15px;">#133 Tạo bảng
+                                    lưu thông
+                                    tin chức danh của nhân sự (1 nhân sự có thể có nhiều chức danh)</div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-2" ondrop="drop(event)" ondragover="allowDrop(event)"
+                style="border-top: 4px solid gold;">
+                <div style="color: gray; font-size: 20px; height: 30px;">READY FOR TEST</div>
+            </div>
+            <div class="col-sm-2" ondrop="drop(event)" ondragover="allowDrop(event)"
+                style="border-top: 4px solid rgb(9, 206, 9);">
+                <div style="color: gray; font-size: 20px; height: 30px;">CLOSE</div>
+            </div>
         </div>
     </div>
 
