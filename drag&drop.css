@@ -3,14 +3,24 @@ body{
 }
 .container{
     margin-top: 50px;
-    width: 100%;
+    width: 100%; 
 }
-.col-sm-2{
+.f-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+}
+.f-grid-col{
     height: 400px;
     padding: 10px;
     border-left: 2px solid white;
     background-color: rgb(231, 227, 227);
     margin-right: 10px;
+    flex: 1 0;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 .header{
     width: 1920;
